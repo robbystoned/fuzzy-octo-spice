@@ -11,5 +11,10 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButtonCell *selectFileBtn;
+@property (weak) IBOutlet NSTextField *fileNameTextField;
+@property NSString *sFileName;
 
+- (IBAction)loadFile:(id)sender;
+- (IBAction)reverseFileName:(id)sender;
 @end
