@@ -13,6 +13,7 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSButtonCell *selectFileBtn;
 @property (weak) IBOutlet NSTextField *fileNameTextField;
+@property NSString *fullPath;
 @property NSString *sFileName;
 
 - (IBAction)loadFile:(id)sender;

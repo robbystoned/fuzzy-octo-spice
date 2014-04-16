@@ -466,6 +466,7 @@
 				AE80A0E118FC705D00051F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE80A0E218FC705D00051F80 /* Build configuration list for PBXNativeTarget "NameReverserTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +475,7 @@
 				AE80A0E418FC705D00051F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
